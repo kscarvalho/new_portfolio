@@ -123,9 +123,14 @@
 }
 
 .button-saiba-mais:hover,
-.button-contato:hover,
+.button-contato:hover{
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: rgba(0, 233, 243, 0.48) 6px 2px 16px 0px, rgba(0, 255, 255, 0.7) -6px -2px 16px 0px;
+}
+
 .button-download:hover {
   transform: translateY(-5px) scale(1.1);
+  box-shadow: rgba(163, 41, 157, 0.48) 6px 2px 16px 0px, rgba(233, 7, 221, 0.7) -6px -2px 16px 0px;
 }
 
 .texto{
