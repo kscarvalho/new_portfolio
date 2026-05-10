@@ -1,0 +1,145 @@
+.sobre-mim {
+  display: flex;
+  background-image: url(/imgs/abstract-textured-backgound.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 100px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+}
+
+.sobre h1{
+  font-size: 60px;
+  color:  #00e9f3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  color: #DDE6ED;
+  font-size: 16px;
+  font-family: Arial;
+  line-height: 40px;
+}
+
+.sobre p:first-of-type {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #DDE6ED;
+}
+
+.sobre strong{
+  text-align: center;
+}
+
+
+.sobre-mim {
+  height: 100vh;
+  gap: 60px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* place-items: center; */
+    width: 100%;
+    height: 500px;
+    gap: 30px;
+}
+    
+.div3 {
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-row-start: 2;
+}
+
+.div1,
+.div2,
+.div3,
+.div4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  min-width: 250px;
+  height: 220px;
+  background-color: black;
+  border-radius: 30px;
+  border: 1px solid #00e9f3;
+  opacity: 0.7;
+  flex: 1;
+  transition: transform 1s ease;
+}
+
+.div1:hover,
+.div2:hover,
+.div3:hover,
+.div4:hover{
+  opacity: 1;
+  transform: translateY(-5px) scale(1.1);
+  border: 2px solid #00e9f3;
+}
+
+.div1 strong,
+.div2 strong,
+.div3 strong,
+.div4 strong{
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #a3299d;
+}
+
+.div3 strong svg{
+  margin-bottom: 0;
+  fill: #a3299d;
+}
+
+.div1 svg,
+.div2 svg,
+.div3 svg,
+.div4 svg{
+  width: 35px;
+  height: 35px;
+  margin-bottom: 30px;
+  fill: #00e9f3;
+}
+
+.vermelho{
+  color: #DC2525;
+}
+
+.azul{
+ color: #1659d7; 
+}
+
+.amarelo{
+  color: #d5bd18;
+}
+
+.laranja{
+  color: #ec832e;
+}
+
+.verde-neon{
+  color: #00e9f3;
+}
+
+.lilas{
+  color: #a3299d;
+}

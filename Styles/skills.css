@@ -1,0 +1,170 @@
+.skills{
+  display: flex;
+  flex-direction: column;
+  background-color:  #04293A;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.habilidades{
+  margin-bottom: 48px;
+}
+
+h2{
+  font-size: 52px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+p{
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+h3{
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+.tecnologias .tec {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+    width: 800px;
+}
+    
+.skills .html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 200px;
+  height: 130px;
+  padding: 5px;
+  border: 1px solid #f97316;
+  border-radius: 20px;
+}
+.skills .css {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 200px;
+  height: 130px;
+  padding: 5px;
+  border: 1px solid #3b82f6;
+  border-radius: 20px;
+}
+
+.skills .javascript{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 200px;
+  height: 130px;
+  padding: 5px;
+  border: 1px solid #facc15;
+  border-radius: 20px;
+}
+.skills .react{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 200px;
+  height: 130px;
+  padding: 5px;
+  border: 1px solid #22d3ee;
+  border-radius: 20px;
+}
+
+.skills .git{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 200px;
+  height: 130px;
+  padding: 5px;
+  border: 1px solid #f97316;
+  border-radius: 20px;
+}
+
+.skills .github{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 200px;
+  height: 130px;
+  padding: 5px;
+  border: 1px solid #86939c;
+  border-radius: 20px;
+}
+
+.skills .typescript{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 200px;
+  height: 130px;
+  padding: 5px;
+  border: 1px solid #3178c6;
+  border-radius: 20px;
+}
+
+.skills .apis{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 200px;
+  height: 130px;
+  padding: 5px;
+  border: 1px solid #3178c6;
+  border-radius: 20px;
+}
+
+
+.html svg,
+.css svg,
+.javascript svg,
+.react svg,
+.git svg,
+.github svg,
+.typescript svg,
+.apis svg
+{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+        
+
+
+        

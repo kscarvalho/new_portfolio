@@ -1,0 +1,51 @@
+.navegacao {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #04293A;
+  height: 70px;
+  align-items: center;
+  padding: 0 100px;
+  overflow: hidden;
+  width: 100%;
+  z-index: 22;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menu span {
+  color: #DDE6ED;
+}
+
+.foto-perfil{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.foto-perfil:hover {
+  transform: translateX(5px) scale(1.1);
+}
+
+.foto-perfil img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.foto-perfil, span{
+ font-family:  Orbitron, sans-serif; 
+ color: #00e9f3;
+ font-weight: 600;
+}
+
+.foto-perfil, strong{
+ font-family:  Orbitron, sans-serif; 
+ color: #DDE6ED;
+}
