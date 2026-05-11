@@ -38,33 +38,68 @@ h3{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 8px;
+    gap: 20px;
     width: 800px;
 }
-    
+
 .skills .html {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background: linear-gradient(145deg, #2a2a2a, #383838);
   width: 200px;
   height: 130px;
   padding: 5px;
-  border: 1px solid #f97316;
+  border: 2px solid #f97316;
   border-radius: 20px;
+  overflow: hidden;
 }
+
+.skills .html::before {
+ content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+    top: -100%;
+    left: -100%;
+    transition: all 0.5s ease;
+}
+
+.skills .html:hover::before {
+    top: 100%;
+    left: 100%;
+}
+
 .skills .css {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background: linear-gradient(145deg, #2a2a2a, #383838);
   width: 200px;
   height: 130px;
   padding: 5px;
   border: 1px solid #3b82f6;
   border-radius: 20px;
+  overflow: hidden;
+}
+
+.skills .css::before {
+ content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+    top: -100%;
+    left: -100%;
+    transition: all 0.5s ease;
+}
+
+.skills .css:hover::before {
+    top: 100%;
+    left: 100%;
 }
 
 .skills .javascript{
@@ -72,24 +107,59 @@ h3{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background: linear-gradient(145deg, #2a2a2a, #383838);
   width: 200px;
   height: 130px;
   padding: 5px;
   border: 1px solid #facc15;
   border-radius: 20px;
+  overflow: hidden;
 }
+
+.skills .javascript::before {
+ content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+    top: -100%;
+    left: -100%;
+    transition: all 0.5s ease;
+}
+
+.skills .javascript:hover::before {
+    top: 100%;
+    left: 100%;
+}
+
 .skills .react{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background: linear-gradient(145deg, #2a2a2a, #383838);
   width: 200px;
   height: 130px;
   padding: 5px;
   border: 1px solid #22d3ee;
   border-radius: 20px;
+  overflow: hidden;
+}
+
+.skills .react::before {
+ content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+    top: -100%;
+    left: -100%;
+    transition: all 0.5s ease;
+}
+
+.skills .react:hover::before {
+    top: 100%;
+    left: 100%;
 }
 
 .skills .git{
@@ -97,12 +167,29 @@ h3{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background: linear-gradient(145deg, #2a2a2a, #383838);
   width: 200px;
   height: 130px;
   padding: 5px;
   border: 1px solid #f97316;
   border-radius: 20px;
+  overflow: hidden;
+}
+
+.skills .git::before {
+ content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+    top: -100%;
+    left: -100%;
+    transition: all 0.5s ease;
+}
+
+.skills .git:hover::before {
+    top: 100%;
+    left: 100%;
 }
 
 .skills .github{
@@ -110,12 +197,29 @@ h3{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background: linear-gradient(145deg, #2a2a2a, #383838);
   width: 200px;
   height: 130px;
   padding: 5px;
   border: 1px solid #86939c;
   border-radius: 20px;
+  overflow: hidden;
+}
+
+.skills .github::before {
+ content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+    top: -100%;
+    left: -100%;
+    transition: all 0.5s ease;
+}
+
+.skills .github:hover::before {
+    top: 100%;
+    left: 100%;
 }
 
 .skills .typescript{
@@ -123,12 +227,29 @@ h3{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background: linear-gradient(145deg, #2a2a2a, #383838);
   width: 200px;
   height: 130px;
   padding: 5px;
   border: 1px solid #3178c6;
   border-radius: 20px;
+  overflow: hidden;
+}
+
+.skills .typescript::before {
+ content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+    top: -100%;
+    left: -100%;
+    transition: all 0.5s ease;
+}
+
+.skills .typescript:hover::before {
+    top: 100%;
+    left: 100%;
 }
 
 .skills .apis{
@@ -136,14 +257,63 @@ h3{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background: linear-gradient(145deg, #2a2a2a, #383838);
   width: 200px;
   height: 130px;
   padding: 5px;
   border: 1px solid #3178c6;
   border-radius: 20px;
+  overflow: hidden;
 }
 
+.skills .apis::before {
+ content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+    top: -100%;
+    left: -100%;
+    transition: all 0.5s ease;
+}
+
+.skills .apis:hover::before {
+    top: 100%;
+    left: 100%;
+}
+
+.skills .html:hover {
+  transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 0 15px #f97316;
+}
+.skills .css:hover {
+  transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 0 15px #3178c6;
+}
+.skills .javascript:hover {
+  transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 0 15px #facc15;
+}
+.skills .react:hover {
+  transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 0 15px #22d3ee;
+}
+.skills .git:hover {
+  transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 0 15px #f97316;
+}
+.skills .github:hover {
+  transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 0 15px #86939c;
+}
+.skills .typescript:hover {
+  transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 0 15px #3178c6;
+}
+.skills .apis:hover {
+  transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 0 15px #3178c6;
+}
 
 .html svg,
 .css svg,
