@@ -1,0 +1,47 @@
+@media(max-width: 812px) {
+  .button-contato {
+    width: 250px;
+  }
+  .button-download {
+    width: 200px;
+  }
+  .button-saiba-mais {
+    width: 150px;
+  }
+}  
+
+@media(max-width: 630px) {
+  .meu-nome span {
+    font-size: 50px;
+  }
+  .meu-nome .alterar-cor-nome {
+    font-size: 40px;
+  }
+  .inicio strong {
+    font-size: 12px;
+  }
+  #texto {
+    font-size: 20px;
+  }
+  .inicio p {
+    font-size: 16px;
+  }
+  .container-buttons {
+    display: block;
+    place-items: center;
+  }
+  .button-contato {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .button-download {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .button-saiba-mais {
+    width: 150px;
+  }
+  .container-redes-sociais {
+    margin-top: 200px;
+  }
+}

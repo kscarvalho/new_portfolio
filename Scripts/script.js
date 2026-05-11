@@ -1,3 +1,4 @@
+//ESCREVER E APAGA PALAVRAS NA TELA
 const nomes = ["Desenvolvedor Web", "Desenvolvedor Full-Stack", "Estudante Engenharia de Software"];
 const texto = document.getElementById("texto");
 
@@ -31,3 +32,8 @@ function escrever() {
 }
 
 escrever();
+
+
+
+
+

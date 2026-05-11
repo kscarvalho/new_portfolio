@@ -2,6 +2,8 @@
 @import url(./Styles/style-inicio.css);
 @import url(./Styles/sobre-mim.css);
 @import url(./Styles/skills.css);
+@import url(./Styles/respons-nav.css);
+@import url(./Styles/respons-inicio.css);
 
 
 * {

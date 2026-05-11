@@ -1,0 +1,17 @@
+@media(max-width: 990px) {
+  .navegacao svg {
+    display: flex;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+@media(max-width: 570px) {
+  .foto-perfil span {
+    display: none;
+  }
+  .navegacao {
+    padding: 0 50px;
+  }
+}

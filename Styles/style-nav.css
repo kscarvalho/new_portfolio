@@ -12,6 +12,13 @@
   z-index: 22;
 }
 
+.navegacao svg{
+  display: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
 .menu {
   display: flex;
   gap: 30px;
@@ -19,6 +26,7 @@
 
 .menu span {
   color: #DDE6ED;
+  padding: 10px;
 }
 
 .foto-perfil{
