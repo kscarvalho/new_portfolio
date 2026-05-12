@@ -38,7 +38,7 @@ h3{
   text-align: center;
   width: 20%;
   line-height: 60px;
-
+  white-space: nowrap;
 }
 
 .tecnologias{
