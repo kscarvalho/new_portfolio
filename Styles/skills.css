@@ -1,7 +1,7 @@
 .skills{
   display: flex;
   flex-direction: column;
-  background-color:  #04293A;
+  background-image: url('../imgs/habilidades.jpg');
   width: 100%;
   height: 100vh;
   padding: 100px;

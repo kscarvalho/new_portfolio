@@ -1,0 +1,12 @@
+.container-projetos{
+   display: flex;
+  background-image: url('../imgs/projetos.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}

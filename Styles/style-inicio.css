@@ -3,7 +3,8 @@
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  background-color: #04293A;
+  background-image: url('../imgs/inicio.jpg');
+  /* background-color: #04293A; */
   justify-content: center;
   align-items: center;
   overflow: hidden;
