@@ -7,11 +7,19 @@
   }
 }
 
-@media(max-width: 570px) {
+@media(max-width: 361px) {
   .foto-perfil span {
     display: none;
   }
+  .foto-perfil img {
+    height: 40px;
+    width: 40px;
+  }
   .navegacao {
     padding: 0 50px;
+    height: 50px;
+  }
+  .navegacao svg {
+    height: 30px;
   }
 }

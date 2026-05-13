@@ -10,38 +10,64 @@
   }
 }  
 
-@media(max-width: 630px) {
+@media(max-width: 361px) {
   .meu-nome span {
-    font-size: 50px;
-  }
-  .meu-nome .alterar-cor-nome {
     font-size: 40px;
   }
+  .meu-nome .alterar-cor-nome {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .texto::after {
+    margin-top: -45px;
+    height: 25px;
+  }
   .inicio strong {
-    font-size: 12px;
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  .inicio h1 {
+    margin-bottom: 30px;
   }
   #texto {
-    font-size: 20px;
+    font-size: 16px;
+    white-space: nowrap;
+    margin-bottom: 40px;
+    padding: 5px;
   }
   .inicio p {
-    font-size: 16px;
+    font-size: 12px;
+    margin-bottom: 30px;
   }
   .container-buttons {
     display: block;
     place-items: center;
   }
   .button-contato {
-    width: 250px;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
     margin-bottom: 20px;
+    gap: 5px;
   }
   .button-download {
-    width: 200px;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
     margin-bottom: 20px;
+    gap: 5px;
   }
   .button-saiba-mais {
-    width: 150px;
+    font-size: 16px;
+    width: 100px;
+    height: 50px;
   }
   .container-redes-sociais {
-    margin-top: 200px;
+    margin-top: 140px;
+    gap: 25px;
+  }
+  .container-redes-sociais svg {
+    width: 30px;
+    height: 30px;
   }
 }
