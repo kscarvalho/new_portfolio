@@ -24,6 +24,7 @@
   }
   .inicio {
     padding: 10px;
+    height: 100vh;
   }
   .inicio strong {
     font-size: 10px;

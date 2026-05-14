@@ -1,0 +1,13 @@
+@media(max-width: 480px) {
+  .skills {
+    padding: 10px;
+    height: 100vh;
+  }
+  .habilidades h2 {
+    font-size: 25px;
+  }
+  .habilidades h2 + p {
+    font-size: 12px;
+  }
+
+}
