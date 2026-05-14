@@ -6,9 +6,11 @@
   background-image: url('../imgs/inicio.jpg');
   /* background-color: #04293A; */
   justify-content: center;
+  position: absolute;
   align-items: center;
   overflow: hidden;
   padding: 0 100px;
+  z-index: 5;
 }
 
 .disponivel-projetos {
