@@ -10,7 +10,7 @@
   }
 }  
 
-@media(max-width: 361px) {
+@media(max-width: 480px) {
   .meu-nome span {
     font-size: 40px;
   }
