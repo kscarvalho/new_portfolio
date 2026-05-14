@@ -2,11 +2,49 @@
   .sobre-mim{
     display: block;
     padding: 10px;
+
   }
   .sobre h1{
-    font-size: 30px;
+    font-size: 25px;
+    margin-bottom: 10px;
   }
-  .sobre p{
+  .sobre-mim .sobre p{
+    display: inline-block;
     font-size: 12px;
+    line-height: 20px;
+    text-align: start;
+  }
+  .sobre-mim .sobre h1 + p {
+    text-align: center;
+  }
+  .parent {
+    height: auto;
+    width: 100%;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .div1, 
+  .div2, 
+  .div3, 
+  .div4 {
+    min-width: 0;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .div1 strong, 
+  .div2 strong, 
+  .div3 strong, 
+  .div4 strong {
+  font-size: 16px;
+  margin-bottom: 15px;
+  }
+  .div1 span, 
+  .div2 span, 
+  .div3 span, 
+  .div4 span {
+  font-size: 10px;
+  margin-bottom: 25px;
   }
 }
