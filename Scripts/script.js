@@ -33,7 +33,12 @@ function escrever() {
 
 escrever();
 
+//MENU MOBILE
+const navMobile = document.querySelector('.nav-mobile');
+const iconMenu = document.querySelector('.icon-menu-hamburguer')
 
-
+iconMenu.addEventListener('click', () => {
+  navMobile.classList.toggle('ativo');
+})
 
 
