@@ -1,0 +1,12 @@
+@media(max-width: 361px) {
+  .sobre-mim{
+    display: block;
+    padding: 10px;
+  }
+  .sobre h1{
+    font-size: 30px;
+  }
+  .sobre p{
+    font-size: 12px;
+  }
+}
