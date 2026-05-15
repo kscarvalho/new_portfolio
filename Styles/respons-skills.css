@@ -36,5 +36,27 @@
   height: 100px;
   margin: 0 auto;
 }
+.html svg,
+.css svg,
+.javascript svg,
+.react svg,
+.git svg,
+.github svg,
+.typescript svg,
+.apis svg{
+  margin-bottom: 10px;
+  height: 35px;
+  width: 35px;
+}
+.html span,
+.css span,
+.javascript span,
+.react span,
+.git span,
+.github span,
+.typescript span,
+.apis span{
+  font-size: 12px;
+}
 
 }
