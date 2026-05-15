@@ -3,11 +3,38 @@
     padding: 10px;
     height: 100vh;
   }
+  .habilidades {
+    margin-bottom: 28px;
+  }
   .habilidades h2 {
     font-size: 25px;
+    margin-top: 50px;
+  }
+  h3 {
+    font-size: 16px;
   }
   .habilidades h2 + p {
     font-size: 12px;
   }
+  .tecnologias .tec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    place-items: center;
+}
+.skills .html,
+.skills .css,
+.skills .javascript,
+.skills .react,
+.skills .git,
+.skills .github,
+.skills .typescript,
+.skills .apis 
+{
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
+}
 
 }

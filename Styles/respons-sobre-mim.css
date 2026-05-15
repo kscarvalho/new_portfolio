@@ -6,7 +6,8 @@
   }
   .sobre h1{
     font-size: 25px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    margin: 60px 0 10px 0;
   }
   .sobre-mim .sobre p{
     display: inline-block;
@@ -14,7 +15,7 @@
     line-height: 20px;
     text-align: start;
     padding: 10px;
-    margin: -5px;
+    margin: -10px;
   }
   .sobre-mim .sobre h1 + p {
     text-align: center;
