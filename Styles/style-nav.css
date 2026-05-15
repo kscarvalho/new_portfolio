@@ -1,6 +1,8 @@
 .navegacao {
   display: flex;
   position: fixed;
+  /* background-color: #525252; */
+  background: rgb(82, 82, 82, 0.5);
   justify-content: space-between;
   padding: 10px;
   height: 70px;
